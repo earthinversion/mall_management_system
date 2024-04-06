@@ -1,4 +1,4 @@
-## Mall Management System
+# Mall Management System
 
 ```
 mkdir world_trade_park_mall
