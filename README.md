@@ -1,8 +1,12 @@
+## Mall Management System
+
+```
 mkdir world_trade_park_mall
 cd world_trade_park_mall
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install Flask Flask-SQLAlchemy
+```
 
 
 ## Application Structure
