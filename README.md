@@ -15,5 +15,6 @@ world_trade_park_mall/
     /templates
         index.html
         add_purchase.html
+        purchase_records.html
 
 ```
