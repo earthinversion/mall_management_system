@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Mall Management{% endblock %}
+
+{% block content %}
+    <h1>Welcome to the World Trade Park Mall Management System</h1>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center">Mall Management Dashboard</h1>
+        <div class="row">
+            <!-- Add Purchase Card -->
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Add Purchase</h5>
+                        <p class="card-text">Add a new purchase record to the system.</p>
+                        <a href="/add" class="btn btn-primary">Go to Add Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <!-- View Purchase Records Card -->
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">View Purchase Records</h5>
+                        <p class="card-text">View all purchase records in the system.</p>
+                        <a href="/purchases" class="btn btn-primary">View Records</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

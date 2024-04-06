@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Purchase Records{% endblock %}
+
+{% block content %}
+    <h1>Purchase Records</h1>
+    <div class="row">
+        {% for purchase in purchases %}
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">{{ purchase.customer_name }}</h5>
+                    <p class="card-text">$ {{ purchase.amount }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
